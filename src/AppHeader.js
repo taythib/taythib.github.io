@@ -5,18 +5,14 @@ function AppHeader() {
   return (
       <header className="app-header">
       <div className="header-item-container">
-          <div className="Title"></div>
-          <div className="Links">
-            <a>
+          <div className="links">
+            <a href="#about" target="_top">
               About
             </a>
-            <a>
+            <a href="#projects" target="_top">
               Projects
             </a>
-            <a>
-              Resume
-            </a>
-            <a>
+            <a href="#contact" target="_top">
               Contact
             </a>
           </div>

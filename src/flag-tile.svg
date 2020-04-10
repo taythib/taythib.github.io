@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="326px" height="271px" viewBox="0 0 326 271" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>flag tile</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flag-tile">
+            <polygon id="Path" fill="#3E3E49" points="121 231 241 171 241 211 121 271 1 211 1 171"></polygon>
+            <path d="M210.703342,201.865231 C198.790176,204.886591 184.255799,210.911418 168.791813,225.730547 C164.16341,230.165943 148.232806,231.922427 121,231 C101.046465,236.578343 82.1616309,233.245009 64.3454974,221 C47.3617115,209.327062 32.5455385,209.884058 19.6712202,197.270236 C5.28076162,183.170951 -0.942978438,174.414206 1,171 L121,111 L129.405738,112.30943 L132.077739,107.971063 L152.058657,111 L135.797339,101.46245 L152.058657,56 L183.404418,120.5 L187.137938,94.2869407 L203.185162,135.763447 L210.703342,151.787189 L241,171 C240.213226,186.653897 230.11434,196.942308 210.703342,201.865231 Z" id="Path" fill="#C1D84C"></path>
+            <polygon id="Path-11" fill="#3E3E49" points="175 171 198.441829 0 208 0 184.558171 171"></polygon>
+            <polygon id="Path-12" fill="#FFFFFF" points="207.372179 0 202 44 247.231495 39.8931131 260 8.19575456"></polygon>
+            <polygon id="Path-13" fill="#FFFFFF" transform="translate(291.444451, 16.284669) rotate(-1.000000) translate(-291.444451, -16.284669) " points="257 28.5693376 267.082487 4 325.888902 28.5693376"></polygon>
+        </g>
+    </g>
+</svg>
