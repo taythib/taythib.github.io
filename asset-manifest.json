@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c7b99046.chunk.css",
+    "main.js": "/static/js/main.8d5c666b.chunk.js",
+    "main.js.map": "/static/js/main.8d5c666b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c399816e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c399816e.js.map",
+    "static/js/2.69e9b71f.chunk.js": "/static/js/2.69e9b71f.chunk.js",
+    "static/js/2.69e9b71f.chunk.js.map": "/static/js/2.69e9b71f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e90f5ef2671a0900e5c0acd8bb1bbbde.js": "/precache-manifest.e90f5ef2671a0900e5c0acd8bb1bbbde.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c7b99046.chunk.css.map": "/static/css/main.c7b99046.chunk.css.map",
+    "static/js/2.69e9b71f.chunk.js.LICENSE": "/static/js/2.69e9b71f.chunk.js.LICENSE",
+    "static/media/blurb.svg": "/static/media/blurb.98d36fc9.svg",
+    "static/media/boston.jpg": "/static/media/boston.ecd4712a.jpg",
+    "static/media/cat-tile.svg": "/static/media/cat-tile.4785d6fe.svg",
+    "static/media/cloud.svg": "/static/media/cloud.74972c1b.svg",
+    "static/media/full-image.svg": "/static/media/full-image.59e3fc2e.svg",
+    "static/media/logo.svg": "/static/media/logo.ee7cd8ed.svg",
+    "static/media/machinery.jpg": "/static/media/machinery.b57cc189.jpg",
+    "static/media/mockup.png": "/static/media/mockup.200e9127.png",
+    "static/media/plant.jpg": "/static/media/plant.52a94934.jpg",
+    "static/media/plant2.jpeg": "/static/media/plant2.ea5866ba.jpeg",
+    "static/media/security.jpg": "/static/media/security.1eaee925.jpg",
+    "static/media/shotgun.png": "/static/media/shotgun.0f968dd5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c399816e.js",
+    "static/js/2.69e9b71f.chunk.js",
+    "static/css/main.c7b99046.chunk.css",
+    "static/js/main.8d5c666b.chunk.js"
+  ]
+}
