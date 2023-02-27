@@ -1,59 +1,23 @@
 import React, { Component } from 'react';
-import tileImg from './full-image.svg';
-import cloudImg from './cloud.svg';
-import catImg from './cat-tile.svg';
-import btownImg from './boston.jpg';
+
 import machineryImg from './machinery.jpg';
 import securityImg from './security.jpg';
 import mockupImg from './mockup.png';
 import plantImg from './plant.jpg';
 import plant2Img from './plant2.jpeg';
 
-import { useRef } from 'react'
-import BodySection from './BodySection.js';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faReact } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+class portfolio extends Component {
 
-class AppBody extends Component {
-  componentDidMount() {
-    //alert("Hi! Excuse the mess, this page is a work in progress as of 1/10/2020");
-  };
   render(){
 
-    var style = function(){ return "position: 1px;"}
     return (
-      <div className="app-body">
-        <section className="body-section">
-          <div className="flex responsive">
-            <div className="thirds desktop-only">
-              <img style={{marginTop : "10%"}} src={cloudImg} alt="logo"/>
-            </div>
-            <div className="thirds">
-              <h1 className="white">Hi there!</h1>
-              <img src={tileImg} alt="logo"/>
-            </div>
-            <div className="thirds desktop-only">
-              <img style={{marginTop : "20%"}} src={cloudImg} alt="logo"/>
-            </div>
-          </div>
-        </section>
-        <section className="body-section">
-          <div className="flex responsive">
-            <div className="white two-thirds text left-align">
-              <h1 id="about">About</h1>
-              <h2>Hailing from Baton Rouge, Louisiana, I graduated from Louisiana State University with a degree in Computer Science. Since then I've worked all over the world in tech, picking up skills in Full-stack development,UX design, and project management in Agile environments.</h2>
-            </div>
-            <div className="thirds">
-              <img className="center" style={{marginTop : "20%"}} src={catImg} alt="logo"/>
-            </div>
-          </div>
-        </section>
-        <section className="body-section">
+      <div>
+                <section className="body-section">
           <div className="flex">
           <div>
             <div className="full white text left-align">
@@ -125,4 +89,4 @@ class AppBody extends Component {
   }
 }
 
-export default AppBody;
+export default portfolio;
