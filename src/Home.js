@@ -41,7 +41,7 @@ class Home extends Component {
             </div>
             <div className="thirds">
               <h1 className="white">Hi there!</h1>
-              <h1 className="white">I'm Taylor! I'm a UX Designer with a </h1>
+              <h1 className="white">I'm Taylor! I'm a UX designer, a coder, and a leader. </h1>
               <img src={tileImg} alt="logo"/>
             </div>
             <div className="thirds desktop-only">
