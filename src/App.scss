@@ -31,6 +31,9 @@
   text-align: right;
   margin: 0 5em;
 }
+.margin-top{
+  margin-top: 1em;
+}
 
 .border {
   border: 1px solid white;
@@ -50,6 +53,10 @@
 
 .white {
   color: white;
+}
+
+.bold{
+  font-weight: 500;
 }
 
 .icon {
@@ -80,11 +87,9 @@ h3 {
 
 }
 
-
 h4 {
   margin: 0.5em 0;
   font-weight: 300;
-
 }
 
 h6 {
@@ -93,7 +98,7 @@ h6 {
 
 img {
  &.screenshot{
-  max-width: none;
+  width: 100%
  }
   max-width: 100%;
   height: auto;
@@ -135,7 +140,7 @@ img {
   }
 
   background-color: white;
-  color: black;
+  color: #3A4B59;
   padding: 8em 0;
 
   .background {
@@ -149,6 +154,10 @@ img {
       opacity: 0.5;
     }
   }
+}
+
+.portfolio-section{
+  margin-bottom: 10em;
 }
 
 .Title {

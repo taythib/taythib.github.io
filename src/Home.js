@@ -7,6 +7,10 @@ import machineryImg from './machinery.jpg';
 import securityImg from './security.jpg';
 import mockupImg from './mockup.png';
 import mockupImg2 from './Screenshot.png';
+import dashboardMockup from './dashboard.png';
+import priorityMockup from './alignpriorities.png';
+import paymentMockup from './payment-methods.png';
+import agreementMockup from './agreements.png';
 import plantImg from './plant.jpg';
 import plant2Img from './plant2.jpeg';
 
@@ -98,30 +102,33 @@ class Home extends Component {
                     <div className="overlay"></div>
                   </div>
                 </div>*/}
-                <div className="flex responsive">
+                <div className="flex responsive portfolio-section">
                   <div className="thirds text left-align">
-                    <h2>Procore Pay</h2>
+                    <h2 className="bold">Procore Pay</h2>
                     <h3>Procore Technologies (2022-?)</h3>
-                    <h4>Problem</h4>
+                    <h4 className="bold">Problem</h4>
                     <h4>As a foremost figure in the construction management software domain, Procore has demonstrated a steadfast commitment to providing a comprehensive solution that proficiently oversees all aspects of construction projects involving general contractor and subcontractor entities.
                     The most notable impediment in this partnership has been the absence of a secure payment mechanism for rendered services. Through the introduction of Procore Pay, the aim is to not only facilitate such transactions, but also to imbue users with a sense of confidence and transparency when managing sizable invoices.</h4>
-                    <h4>Result</h4>
+                    <h4 className="margin-top bold">Result</h4>
                     <h4>Despite my relatively brief tenure at Procore, my exposure to the realm of financial technology has been invaluable to my growth as a designer. At present, I am responsible for overseeing the onboarding process for subcontractors onto the platform. 
                     This entails facilitating users' adoption of payment agreements with general contractors, as well as enabling linkage of bank accounts and payment information to 
                     support future account expansion.</h4>
                   </div>
-                  <div className="thirds">
-                    <img className="center screenshot" style={{marginTop : "10%"}} src={mockupImg} alt="logo"/>
+                  <div className="two-thirds">
+                    <img className="center screenshot" style={{marginTop : "10%"}} src={paymentMockup} alt="logo"/>
+                    <img className="center screenshot" style={{marginTop : "10%"}} src={agreementMockup} alt="logo"/>
+
                   </div>
                 </div>
-                <div className="flex responsive">
+                <div className="flex responsive portfolio-section">
                   <div className="thirds text left-align">
-                    <h2>Align</h2>
+                    <h2 className="bold">Align</h2>
                     <h3>Align Technologies (2019-2022)</h3>
-                    <h4>Problem</h4>
+                    <h4 className="bold">Problem</h4>
                     <h4>As a burgeoning startup, Align was embarking upon a growth phase, necessitating expansion of its product and technology teams to ensure a steady stream of customer value delivery. 
                    Consequently, there arose a pressing need to not only address extant design debt in a reactive manner, but to ensure a satisfying experience for users in upcoming features.</h4>
-                    <h4>Result</h4>
+                    
+                    <h4 className="margin-top bold">Result</h4>
                     <h4>During my tenure of three years at a company as small as Align, I quickly learned that fluidity between roles was paramount 
                     in bridging gaps to ensure the product. In tandem with launching a design system and style guide, I collaborated closely with 
                     developers to guarantee that the product we delivered not only worked well, but felt great to use too!</h4>
@@ -133,24 +140,26 @@ class Home extends Component {
                     design, resolving the previous design debt and enhancing the product's overall quality.
                     </h4>
                   </div>
-                  <div className="thirds">
-                    <img className="center screenshot" style={{marginTop : "10%"}} src={mockupImg} alt="logo"/> 
+                  <div className="two-thirds">
+                    <img className="center screenshot" style={{marginTop : "10%"}} src={dashboardMockup} alt="logo"/> 
+                    <img className="center screenshot" style={{marginTop : "10%"}} src={priorityMockup} alt="logo"/> 
+
                   </div>
                 </div>
-                <div className="flex responsive">
+                <div className="flex responsive portfolio-section">
                   <div className="thirds text left-align">
-                    <h2>Internal Plant Engineering Tool</h2>
+                    <h2 className="bold">Internal Plant Engineering Tool</h2>
                     <h3>General Electric (~2018)</h3>
-                    <h4>Problem</h4>
+                    <h4 className="bold">Problem</h4>
                     <h4>Upon my arrival to the team in New Orleans, I was introduced to a nascent design system which necessitated 
                     ongoing collaboration with the broader Predix Design System, as well as a method of refining feedback from project stakeholders.</h4>
-                    <h4>Result</h4>
+                    <h4 className="margin-top bold">Result</h4>
                     <h4>Under the guidance of the then design director, feedback was solicited from stakeholders, 
                     as well as data collected from user analytics, to inform future design decisions. 
                     Furthermore, rudimentary code snippets for reusable design components were developed to facilitate usage by application developers. </h4>
 
                   </div>
-                  <div className="thirds">
+                  <div className="two-thirds">
                     <img className="center screenshot" style={{marginTop : "10%"}} src={mockupImg2} alt="logo"/>
                   </div>
                 </div>
