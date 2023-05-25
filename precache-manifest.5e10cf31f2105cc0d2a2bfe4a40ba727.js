@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bbb993daf02de2b1461ed7c0bd1f1fab",
+    "revision": "ecb7e51b5830d91aa9c05df7363fe190",
     "url": "/index.html"
   },
   {
-    "revision": "b3db213171495af8c2a0",
+    "revision": "1a43b7151ea242720540",
     "url": "/static/css/main.94ff2cb6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.46a4187c.chunk.js.LICENSE"
   },
   {
-    "revision": "b3db213171495af8c2a0",
-    "url": "/static/js/main.3758ca07.chunk.js"
+    "revision": "1a43b7151ea242720540",
+    "url": "/static/js/main.67faffe7.chunk.js"
   },
   {
     "revision": "0dda34acc7b81aad8062",
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mockup.200e9127.png"
   },
   {
-    "revision": "e518272012321768d6dd700d863c0e6f",
-    "url": "/static/media/payment-methods.e5182720.png"
+    "revision": "459d8c26c98a8d11dd0aa93318379f2d",
+    "url": "/static/media/payment-methods.459d8c26.png"
   },
   {
     "revision": "52a94934e093d1e29779bc579e5798b7",
