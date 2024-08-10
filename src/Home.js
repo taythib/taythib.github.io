@@ -11,7 +11,7 @@ import dashboardMockup from './dashboard.png';
 import priorityMockup from './alignpriorities.png';
 import paymentMockup from './payment-methods.png';
 import agreementMockup from './agreements.png';
-import plantImg from './plant.jpg';
+import bankMockup from './bank-statements.png';
 import plant2Img from './plant2.jpeg';
 
 import { useRef } from 'react'
@@ -40,8 +40,8 @@ class Home extends Component {
               <img style={{marginTop : "10%"}} src={cloudImg} alt="logo"/>
             </div>
             <div className="thirds">
-              <h1 className="white">Hi there!</h1>
-              <h1 className="white">I'm Taylor! I'm a UX designer, a coder, and a leader. </h1>
+              <h1 className="white">Hello there!</h1>
+              <h1 className="white">My name is Taylor Thibodeaux. I'm a UX designer, a coder, and a collaborator. </h1>
               <img src={tileImg} alt="logo"/>
             </div>
             <div className="thirds desktop-only">
@@ -53,7 +53,7 @@ class Home extends Component {
           <div className="flex responsive">
             <div className="two-thirds text left-align">
               <h1 id="about">About</h1>
-              <h2>Hailing from Baton Rouge, Louisiana, I graduated from Louisiana State University with a degree in Computer Science. Since then, I've worked all over the country in tech, picking up skills in UX design, full-stack developlment, and project management in Agile environments along the way!</h2>
+              <h2>Hailing from Baton Rouge, Louisiana, I graduated from Louisiana State University with a degree in Computer Science. Since then, I've worked all over the country in tech, picking up skills in UX design, full-stack development, and project management in Agile environments along the way. Check out my portfolio below and feel free to contact me if you have any questions.</h2>
             </div>
             <div className="thirds">
               <img className="center" style={{marginTop : "20%"}} src={catImg} alt="logo"/>
@@ -103,25 +103,25 @@ class Home extends Component {
                   </div>
                 </div>*/}
                 <div className="flex responsive portfolio-section">
-                  <div className="thirds text left-align">
+                  <div className="thirds text left-align" style={{marginLeft : "0"}}>
                     <h2 className="bold">Procore Pay</h2>
                     <h3>Procore Technologies (2022-?)</h3>
                     <h4 className="bold">Problem</h4>
-                    <h4>As a foremost figure in the construction management software domain, Procore has demonstrated a steadfast commitment to providing a comprehensive solution that proficiently oversees all aspects of construction projects involving general contractor and subcontractor entities.
-                    The most notable impediment in this partnership has been the absence of a secure payment mechanism for rendered services. Through the introduction of Procore Pay, the aim is to not only facilitate such transactions, but also to imbue users with a sense of confidence and transparency when managing sizable invoices.</h4>
+                    <h4>As a foremost figure in the construction management software domain, Procore has demonstrated a steadfast commitment to providing a comprehensive solution that oversees all aspects of construction projects involving general contractor and subcontractor personas.
+                    The most notable impediment in this partnership has been the absence of a secure payment mechanism on contract invoices. Through the introduction of Procore Pay, the aim is to not only facilitate such transactions, but also to instill users with a sense of confidence and transparency when managing these payments.</h4>
                     <h4 className="margin-top bold">Result</h4>
-                    <h4>Despite my relatively brief tenure at Procore, my exposure to the realm of financial technology has been invaluable to my growth as a designer. At present, I am responsible for overseeing the onboarding process for subcontractors onto the platform. 
+                    <h4>During my tenure at Procore, my exposure to the realm of financial technology has been invaluable to my growth as a designer. At present, I am responsible for overseeing the onboarding process for both general contractors and sub-contractors onto the platform. 
                     This entails facilitating users' adoption of payment agreements with general contractors, as well as enabling linkage of bank accounts and payment information to 
                     support future account expansion.</h4>
                   </div>
                   <div className="two-thirds">
                     <img className="center screenshot" style={{marginTop : "10%"}} src={paymentMockup} alt="logo"/>
-                    <img className="center screenshot" style={{marginTop : "10%"}} src={agreementMockup} alt="logo"/>
+                    <img className="center screenshot" style={{marginTop : "10%"}} src={bankMockup} alt="logo"/>
 
                   </div>
                 </div>
                 <div className="flex responsive portfolio-section">
-                  <div className="thirds text left-align">
+                  <div className="thirds text left-align" style={{marginLeft : "0"}}>
                     <h2 className="bold">Align</h2>
                     <h3>Align Technologies (2019-2022)</h3>
                     <h4 className="bold">Problem</h4>
@@ -147,16 +147,19 @@ class Home extends Component {
                   </div>
                 </div>
                 <div className="flex responsive portfolio-section">
-                  <div className="thirds text left-align">
+                  <div className="thirds text left-align" style={{marginLeft : "0"}}>
                     <h2 className="bold">Internal Plant Engineering Tool</h2>
                     <h3>General Electric (~2018)</h3>
                     <h4 className="bold">Problem</h4>
-                    <h4>Upon my arrival to the team in New Orleans, I was introduced to a nascent design system which necessitated 
-                    ongoing collaboration with the broader Predix Design System, as well as a method of refining feedback from project stakeholders.</h4>
+                    <h4>
+                      Upon joining the New Orleans team, the primary need was to integrate a nascent 
+                      design system into an internal tool utilized by GE engineers to monitor maintenance activities during plant turnarounds and to order components if needed. 
+                      The objective was to create an intuitive and user-friendly experience specifically catered to field engineers operating.
+                    </h4>
                     <h4 className="margin-top bold">Result</h4>
                     <h4>Under the guidance of the then design director, feedback was solicited from stakeholders, 
                     as well as data collected from user analytics, to inform future design decisions. 
-                    Furthermore, rudimentary code snippets for reusable design components were developed to facilitate usage by application developers. </h4>
+                    Furthermore, rudimentary code snippets for reusable UI components were developed to facilitate usage by application developers. </h4>
 
                   </div>
                   <div className="two-thirds">
