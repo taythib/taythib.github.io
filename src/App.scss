@@ -13,6 +13,7 @@
 .flex {
   display: flex;
   width: auto;
+  align-items: center;
 }
 
 .full {
@@ -25,7 +26,6 @@
 
 .left-align {
   text-align: left;
-  margin: 0 5em;
 }
 .right-align {
   text-align: right;
@@ -70,16 +70,15 @@ a {
 
 h1 {
   font-size: 2em;
-  font-weight: 200;
+  font-weight: 400;
   margin-top: 0;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 h2 {
-  font-size: 1.5em;
-  font-weight: 200;
-  margin-top: 0;
-  margin-bottom: 0.25em;
+  font-size: 1.75em;
+    font-weight: 375;
+    line-height: 1.5;
 }
 
 h3 {
@@ -103,6 +102,25 @@ img {
  }
   max-width: 100%;
   height: auto;
+
+  &.avatar {
+    aspect-ratio: 1 / 1;
+    border-radius: 9999px;
+    width:200px;
+  }
+}
+
+.button-primary {
+  background-color: #58c0c9;
+  border-radius: 5px;
+  padding:10px;
+  color:white;
+  width:fit-content;
+  cursor: pointer;
+
+  &:hover{
+    background-color: #58c0c9c3;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -135,14 +153,22 @@ img {
 }
 .body-section {
 
-  &.hero-image{
-    background-color:#b6dad2;
-    color: white;
+  &.hero {
+    height: 75vh;
+    padding: 0;
+    padding-top: 8em;
+    .hero-image{
+      background-color:#ffffff;
+      color: rgb(0, 0, 0);
+      width: 200px;
+    }
   }
 
+
   background-color: white;
-  color: #3A4B59;
+  color: #000000;
   padding: 8em 0;
+  font-weight: 400;
 
   .background {
     height: 100%;
@@ -154,6 +180,55 @@ img {
     &.img {
       opacity: 0.5;
     }
+  }
+  .centered-section{
+    margin: auto;
+    width: 700px;
+  }
+
+  .portfolio-header{
+    text-align: left;
+    .flex{
+      gap: 10px;
+    }
+  }
+}
+
+.portfolio-logo {
+  height: 32px;
+  width: 32px;
+  background-color: #3c17a2;
+  border-radius: 5px;
+}
+
+.nav-list{
+  position: sticky;
+  top: 40%;
+  margin-left: 1em;
+}
+
+.nav-bubble {
+  max-width: 200px;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  padding: 8px;
+
+  &:hover{
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+
+    .bubble-text {
+      display:block;
+    }
+    
+    }
+
+  .bubble-text {
+    display: none;
+    font-weight: 500;
   }
 }
 
@@ -168,7 +243,7 @@ img {
 .text {
   &.left-align {
     text-align: left;
-    margin: 0 5em;
+    margin: 0 3em;
   }
 }
 

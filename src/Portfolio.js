@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 
-import machineryImg from './machinery.jpg';
-import securityImg from './security.jpg';
-import mockupImg from './mockup.png';
-import plantImg from './plant.jpg';
-import plant2Img from './plant2.jpeg';
+import machineryImg from './Resources/machinery.jpg';
+import mockupImg from './Resources/mockup.png';
+import plantImg from './Resources/plant.jpg';
+import plant2Img from './Resources/plant2.jpeg';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -41,7 +40,7 @@ class portfolio extends Component {
                   <h2 className="title-hover">Asset Risk Assessor<hr/>
                     <h6>GE Cybersecurity - Project Management, UX</h6>
                   </h2>
-                  <img src={securityImg} alt="logo"/>
+                  <img src={machineryImg} alt="logo"/>
                   <div className="overlay"></div>
                 </div>
                 <div className="grid-item">

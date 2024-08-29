@@ -2,7 +2,7 @@ import React from 'react';
 import {
     BrowserRouter as Router,
     Route,
-    Switch
+    Routes
 } from 'react-router-dom';
 
 import './App.scss';
@@ -15,15 +15,10 @@ function App() {
     <Router>
         <div className="App">
             <AppHeader />
-
-            {/* A <Switch> looks through its children <Route>s and
-        renders the first one that matches the current URL. */}
-            <Switch>
-                <Route path="/" exact component={Home}>
-                </Route>
-                <Route path="/portfolio" component={Portfolio}>
-                </Route>
-            </Switch>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/portfolio" element={<Portfolio />} />
+            </Routes>
         </div>
     </Router>
   );

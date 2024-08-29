@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import tileImg from './full-image.svg';
-import cloudImg from './cloud.svg';
-import catImg from './cat-tile.svg';
-import btownImg from './boston.jpg';
-import machineryImg from './machinery.jpg';
-import securityImg from './security.jpg';
-import mockupImg from './mockup.png';
-import mockupImg2 from './Screenshot.png';
-import dashboardMockup from './dashboard.png';
-import priorityMockup from './alignpriorities.png';
-import paymentMockup from './payment-methods.png';
-import agreementMockup from './agreements.png';
-import bankMockup from './bank-statements.png';
-import plant2Img from './plant2.jpeg';
+import tileImg from './Resources/full-image.svg';
+import cloudImg from './Resources/cloud.svg';
+import catImg from './Resources/cat-tile.svg';
+import btownImg from './Resources/boston.jpg';
+import machineryImg from './Resources/machinery.jpg';
+import mockupImg from './Resources/mockup.png';
+import mockupImg2 from './Resources/Screenshot.png';
+import dashboardMockup from './Resources/dashboard.png';
+import priorityMockup from './Resources/alignpriorities.png';
+import paymentMockup from './Resources/payment-methods.png';
+import headshot from './Resources/BWHeadshot.jpg';
+import agreementMockup from './Resources/agreements.png';
+import bankMockup from './Resources/bank-statements.png';
+import plant2Img from './Resources/plant2.jpeg';
 
 import { useRef } from 'react'
 import BodySection from './BodySection.js';
@@ -34,30 +34,38 @@ class Home extends Component {
     var style = function(){ return "position: 1px;"}
     return (
       <div className="app-body">
-        <section className="body-section hero-image">
-          <div className="flex responsive">
-            <div className="thirds desktop-only">
-              <img style={{marginTop : "10%"}} src={cloudImg} alt="logo"/>
-            </div>
-            <div className="thirds">
-              <h1 className="white">Hello there!</h1>
-              <h1 className="white">My name is Taylor Thibodeaux. I'm a UX designer, a coder, and a collaborator. </h1>
-              <img src={tileImg} alt="logo"/>
-            </div>
-            <div className="thirds desktop-only">
-              <img style={{marginTop : "20%"}} src={cloudImg} alt="logo"/>
+        <div className="nav-list">
+          <div className='nav-bubble flex'>
+            <div className='portfolio-logo'>
+             </div>
+              <div className='bubble-text'>
+                Procore Pay
+              </div>
+          </div>
+        </div>
+        <section className="body-section hero">
+          <div className="left-align responsive centered-section ">
+            {/*<img className="hero-image" src={tileImg} alt="logo"/>*/}
+            <img className="avatar" src={headshot} alt="logo"/>
+
+            <div>
+              <h1 >Hey there, I'm Taylor!</h1>
+              <h2>I create user experiences that are more than just functional—they have personality, take a stand, and connect deeply with users.<br /><br />
+                 My goal is to design software that resonates, inspires, and reflects the passion and vision of its creators.<br /></h2>
+                 <div className="button-primary">Let's chat!</div>
             </div>
           </div>
         </section>
         <section className="body-section">
-          <div className="flex responsive">
-            <div className="two-thirds text left-align">
-              <h1 id="about">About</h1>
-              <h2>Hailing from Baton Rouge, Louisiana, I graduated from Louisiana State University with a degree in Computer Science. Since then, I've worked all over the country in tech, picking up skills in UX design, full-stack development, and project management in Agile environments along the way. Check out my portfolio below and feel free to contact me if you have any questions.</h2>
+          <div className="centered-section">
+            <div className='portfolio-header'>
+              <div className='flex'>
+                <div className='portfolio-logo'></div>
+                <h2 className="bold">Procore Pay</h2>
+              </div>
+              <h3>Procore Technologies (2022-?)</h3>
             </div>
-            <div className="thirds">
-              <img className="center" style={{marginTop : "20%"}} src={catImg} alt="logo"/>
-            </div>
+
           </div>
         </section>
         <section className="body-section">
